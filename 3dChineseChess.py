@@ -1,5 +1,5 @@
 #-*- coding:gbk -*-
-
+import main
 import pygame
 from pygame.locals import *
 import sys
@@ -299,11 +299,11 @@ def Init():
     Objects.append(instruction_board)
     Objects_pos.append([0.0,-10.0,0.0])
     #Redwin
-    Redwin = glLibObjText(u"红胜！游戏结束",Font,(255,0,0))
+    Redwin = glLibObjText(u"锟斤拷胜锟斤拷锟斤拷戏锟斤拷锟斤拷",Font,(255,0,0))
     Objects.append(Redwin)
     Objects_pos.append([-3.5,-20.0,0.5])
     #Blawin
-    Blawin = glLibObjText(u"黑胜！游戏结束",Font,(0,0,0))
+    Blawin = glLibObjText(u"锟斤拷胜锟斤拷锟斤拷戏锟斤拷锟斤拷",Font,(0,0,0))
     Objects.append(Blawin)
     Objects_pos.append([-3.5,-20.0,0.5])
     #Saveboard1
@@ -375,7 +375,7 @@ def Init():
     Objects.append(Return_Button)
     Objects_pos.append([-4.5,-40.0,3.25])
     #Return_moji
-    Return_moji = glLibObjText(u"返回",Font,(0,0,0))
+    Return_moji = glLibObjText(u"锟斤拷锟斤拷",Font,(0,0,0))
     Objects.append(Return_moji)
     Objects_pos.append([-5.5,-39.88,3.75])
 
