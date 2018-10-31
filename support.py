@@ -3,7 +3,6 @@ import sys
 import math
 import 222
 add Pull2
-back master
 import time
 class Unit:
 	"""
