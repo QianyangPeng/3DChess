@@ -1,4 +1,5 @@
 #-*- coding:gbk -*-
+m
 import main
 import pygame
 from pygame.locals import *
