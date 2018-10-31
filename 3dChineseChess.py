@@ -1,6 +1,7 @@
 #-*- coding:gbk -*-
 m
 mm
+mmmm
 import main
 import pygame
 from pygame.locals import *
